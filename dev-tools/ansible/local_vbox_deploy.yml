@@ -6,7 +6,7 @@
     - java
     - {role: zookeeper, tags: zookeeper}
     - {role: rabbitmq, tags: rabbitmq}
-    - {role: database, become: yes, become_user: {{user}}}
+    - {role: database, become: yes, become_user: "{{user}}"}
 
 - hosts: main-airavata
   roles:
