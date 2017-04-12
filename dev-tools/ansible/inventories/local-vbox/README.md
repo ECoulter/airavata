@@ -2,9 +2,11 @@
 
 To try this out on VirtualBox:
 
-1. Get a copy of CentOS7: http://isoredirect.centos.org/centos/7/isos/x86_64/CentOS-7-x86_64-Minimal-1511.iso
+1. Get a copy of CentOS7: https://www.centos.org/download/ 
+..* minimal ISO  should be fine
 2. Install VirtualBox
 3. Enable host-only networking! Go to File->Preferences->Networks->Host-only and hit "add" (on the right, with a + icon)
+..* make sure you also have a NAT to communicate with outside world
 4. create a new VM in VirtualBox (The big blue "new" button)
 5. Choose "Linux" and "Redhat 64bit" for the first parameters
 6. Go through the system specs process (2GB RAM and 10GB disk space should be fine)
@@ -24,3 +26,4 @@ The current inventory assumes 3 VMs with host-only ips set as:
 192.168.56.98
 192.168.56.99
 192.168.56.100
+You can change these in hosts.

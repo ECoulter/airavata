@@ -34,7 +34,7 @@ To deploy pga run following. see site.yml (playbook) file for other available ta
 
 Build three CentOS 7 VMs locally, on a host-only network (See README.md in inventories/local_vbox).
 
-- `ansible-playbook -i inventories/local-vbox local_deploy.yml`
+- `ansible-playbook -i inventories/local-vbox local_vbox_deploy.yml`
 
 ## Jetstream-based deployment
 
